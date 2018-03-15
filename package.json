@@ -1,0 +1,23 @@
+{
+  "name": "pipeline-experiments",
+  "version": "1.0.0",
+  "description": "Experiments with the new pipeline operator",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node index.js"
+  },
+  "keywords": [],
+  "author": "kutyel <flaviocorpa@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "ramda": "^0.25.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.40",
+    "@babel/node": "^7.0.0-beta.40",
+    "@babel/plugin-proposal-pipeline-operator": "^7.0.0-beta.40",
+    "babel-eslint": "^8.0.0-alpha.17",
+    "babel-preset-env": "^7.0.0-beta.3",
+    "eslint": "^4.0.0-rc.0"
+  }
+}

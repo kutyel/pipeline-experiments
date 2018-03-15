@@ -1,8 +1,16 @@
-# pipeline-experiments
+import {
+  all,
+  equals,
+  join,
+  lensIndex,
+  map,
+  match,
+  over,
+  replace,
+  toLower,
+  toUpper
+} from 'ramda'
 
-Experiments with the new pipeline operator 🤓
-
-```js
 const camelCase = str =>
   str
   |> match(/[A-Za-z]+/g)
@@ -20,4 +28,3 @@ const test = [
 ]
 
 test |> map(camelCase) |> all(equals('fooBar')) |> console.log // true!!!
-```
