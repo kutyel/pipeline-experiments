@@ -1,0 +1,8 @@
+[
+  "foo-bar",
+  "foo_bar",
+  "Foo-Bar",
+  "--foo.bar",
+  "__foo__bar__",
+  "foo bar"
+]
